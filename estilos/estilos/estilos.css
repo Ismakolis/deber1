@@ -1,0 +1,105 @@
+/*Desarrollador: Ismael Anrrango
+     Fecha: 10/4/2024
+     Revision: No
+     Detalle: Contiene el codigo de los contactos*/
+/*Estilos del titulo index*/
+/*Color de la pagina en general*/
+
+/*Estilos de los titulos*/
+#titulo {
+    color: rgb(180, 27, 27);
+    text-align: center;
+    font-size: 44px;
+}
+
+.contenedor {
+    background-color: rgb(20, 156, 31);
+    padding: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/*titulos del body*/
+.titulobody {
+    background-color: azure;
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: brown;
+}
+
+/*parrafos del body*/
+.contenedor2 {
+    background-color: rgb(182, 19, 19);
+    padding: 60px;
+    text-align: center;
+    color: rgb(177, 7, 7);
+}
+
+#parrafobody {
+    font-size: 19px;
+    color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+/*imagenes del body*/
+#image {
+    width: 280px;
+    height: 210px;
+}
+
+/*Estilos contactos */
+.contbody {
+    background-color: rgb(247, 244, 217);
+}
+
+.contadiv {
+    font-size: 19px;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+.contadiv2 {
+    text-align: center;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.contp {
+    text-align: center;
+    background-color: rgb(172, 96, 62);
+    padding: 30px;
+    font-size: 19px;
+    color: rgb(27, 27, 134);
+}
+
+
+/*etilos de nosotros*/
+
+.ndiv {
+    font-size: 19px;
+    text-align: center;
+    background-color: rgb(64, 113, 218);
+    color: rgb(0, 0, 0);
+}
+.ndiv2{
+    font-size: 18px;
+    text-align: center;
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+}
+.imn{
+    
+    width: 290px;
+    height:230px;
+
+}
+#par{
+    font-size: 19px;
+    text-align: center;
+}
+.p1{
+text-align: center;
+}

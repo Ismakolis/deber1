@@ -1,5 +1,5 @@
 <!-- Desarrollador: Ismael Anrrango
-     Fecha: 7/4/2024
+     Fecha: 10/4/2024
      Revision: No
      Detalle: Este es el index de mi deber-->
 <!DOCTYPE html>
@@ -8,43 +8,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos/estilos.css">
     <title>Deber DW1</title>
 </head>
 
-<body style="background-color: rgb(247, 244, 217);">
+<body>
     <hr>
-    <!--Titulos del body-->
-    <h1 style="font-size: 33px;">|---Trabajo Desarrollo web 1---|</h1>
-    <h2>|---------Home |<a href="vistas/contactos.html">Contactos</a> |<a
-            href="vistas/nosotros.html">Nosotros</a>----------|</h2>
-    <hr>
-    <h2>|-Bienvenido a la carrera Desarrollo de software-|</h2>
-    <!--Parrafos del boddy-->
-    <p style="font-size: 19px;">
-        En esta carrera los profecionales en esta diciplina crean herramientas de software <br>
-        y aplicaciones que permiten a los usuarios llevar acabo actividades especificas. <br>
-        Adicional vas a lograr que estas mismas aplicaciones y herramientas de software <br>
-        satisfagan las necesecidades de los usuarios.
-    </p>
-    <!--Se inserta una imaguen 1-->
-    <img src="imagenes/home/im1.jpg" alt="Imagen de programador" width="270px" height="200px">
-    <!--Se escribe un parrafo del body-->
-    <p style="font-size: 19px;">
-        No solo vas aprender a crear herramientas de software o aplicaciones, tambien vas <br>
-        a tener conocimientos sobre Sistemas operativos, Redes, Bases de datos entre otros aspectos <br>
-        animate y entra en este hermoso mundo de la programacion.
-    </p>
-    <!--Se inserta una imagen 2-->
-    <img src="imagenes/home/im2.webp" alt="Imagen de computador" width="270px" height="200px">
-    <hr>
-    <!--Se escribe un parrafo del body-->
-    <p style="font-size: 19px;">
-        Si te gusta la tecnologia y descubrir como funciona el mundo de la red y<br>
-        la programacion. ¿Que esperas?, ser programador es lo tuyo .
-    </p>
-    <!--Se inserta una imagen 3 -->
-    <img src="imagenes/home/im3.jpg" alt="Imagen de un programador" width="270px" height="200">
-  
+    <div class="contenedor">
+        <!--Titulos del body-->
+        <h1 >Trabajo Desarrollo web 1</h1>
+        <h2>|Home |<a href="vistas/contactos.html">Contactos</a> |<a href="vistas/nosotros.html">Nosotros</a>|</h2>
+    </div>
+    <div>
+        <div class="titulobody">
+            <hr>
+            <h2>Bienvenido a la carrera Desarrollo de software</h2>
+        </div>
+        <div class="contenedor2" id="parrafobody">
+            <!--Parrafos del boddy-->
+            <p >
+                En esta carrera los profecionales en esta diciplina crean herramientas de software <br>
+                y aplicaciones que permiten a los usuarios llevar acabo actividades especificas. <br>
+                Adicional vas a lograr que estas mismas aplicaciones y herramientas de software <br>
+                satisfagan las necesecidades de los usuarios.
+            </p>
+            <!--Se inserta una imaguen 1-->
+            <img id="image"src="imagenes/home/im1.jpg" alt="Imagen de programador" >
+            <!--Se escribe un parrafo del body-->
+            <p >
+                No solo vas aprender a crear herramientas de software o aplicaciones, tambien vas <br>
+                a tener conocimientos sobre Sistemas operativos, Redes, Bases de datos entre otros aspectos <br>
+                animate y entra en este hermoso mundo de la programacion.
+            </p>
+            <!--Se inserta una imagen 2-->
+            <img id="image" src="imagenes/home/im2.webp" alt="Imagen de computador">
+            <hr>
+            <!--Se escribe un parrafo del body-->
+            <p >
+                Si te gusta la tecnologia y descubrir como funciona el mundo de la red y<br>
+                la programacion. ¿Que esperas?, ser programador es lo tuyo .
+            </p>
+            <!--Se inserta una imagen 3 -->
+            <img id="image" src="imagenes/home/im3.jpg" alt="Imagen de un programador">
+        </div>
+    </div>
 </body>
 
 </html>
